@@ -242,20 +242,25 @@ Generated Summary
 # 🚀 Installation
 
 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/text-summarizer.git
+```text
+git clone [https://github.com/Akshat-singh1705/text-summarizer.git](https://github.com/Akshat-singh1705/text-summarizer.git)
 cd text-summarizer
-2. Create a Virtual Environment
-Windows
+```
+3. Create a Virtual Environment
+Windows:
+```
 python -m venv venv
-
-Activate it:
-
 venv\Scripts\activate
-macOS / Linux
+```
+macOS / Linux :
+```
 python3 -m venv venv
 source venv/bin/activate
-3. Install Dependencies
+```
+5. Install Dependencies
+```
 pip install -r requirements.txt
+```
 
 ---
 
@@ -263,21 +268,23 @@ pip install -r requirements.txt
 
 Make sure the trained model exists inside:
 
+```
 text summarizer model/
 └── saved_summary_model/
+```
 
 Then navigate to the application folder:
-
+```
 cd textsummarizerapp
-
+```
 Start the FastAPI server:
-
+```
 uvicorn app:app --reload
-
+```
 The application will run at:
-
+```
 http://127.0.0.1:8000
-
+```
 Open the URL in your browser.
 
 ---
@@ -288,17 +295,21 @@ FastAPI automatically provides interactive API documentation.
 
 After starting the application, open:
 
-http://127.0.0.1:8000/docs
+***http://127.0.0.1:8000/docs***
 
-You can test the /summarize/ endpoint directly from the Swagger interface.
+You can test the ***/summarize/*** endpoint directly from the Swagger interface.
 
 Example Request
+```
 {
     "dialogue": "John: Are you coming to the meeting? Sarah: Yes, I will be there at 3 PM."
 }
+```
 Example Response
+```
 {
     "summary": "Sarah will attend the meeting at 3 PM."
 }
+```
 
 ---
