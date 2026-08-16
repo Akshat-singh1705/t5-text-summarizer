@@ -142,11 +142,6 @@ text-summarizer/
 │   ├── data/
 │   │   ├── samsum-train.csv
 │   │   └── samsum-validation.csv
-│   │
-│   ├── checkpoints/
-│   │
-│   ├── results/
-│   │
 │   ├── saved_summary_model/
 │   │
 │   └── Text_Summarizer.ipynb
