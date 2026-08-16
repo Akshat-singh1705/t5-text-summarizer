@@ -132,9 +132,13 @@ The trained model and tokenizer are saved in:
 text summarizer model/saved_summary_model/
 
 
-## 📁 Project Structure
+# Text Summarizer
 
+A text summarization application powered by a trained machine learning model and served via a FastAPI backend. This tool takes dialogue or text as input and generates a concise summary.
 
+## Project Structure
+
+```
 text-summarizer/
 │
 ├── text summarizer model/
@@ -154,6 +158,7 @@ text-summarizer/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ## 📂 Model Folder
 
